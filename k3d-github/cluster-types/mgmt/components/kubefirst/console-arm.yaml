@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://charts.kubefirst.com
-    targetRevision: 2.3.4
+    targetRevision: 2.3.2-rc0-alpha.9
     chart: kubefirst
     helm:
       values: |-
@@ -73,4 +73,4 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
-      - CreateNamespace=true
+    - CreateNamespace=true
